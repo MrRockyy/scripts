@@ -16,7 +16,7 @@ for f in file:
         shutil.move(file1,f'{path}/images/{f}')
     elif formt == 'docx' or formt == 'doc':
          shutil.move(file1,f'{path}/docx/{f}')
-    elif formt == 'py' or formt == 'js' or formt == 'html' or formt == 'csv' or formt == 'json' or formt == 'css' or formt == 'zh': 
+    elif formt == 'py' or formt == 'js' or formt == 'html' or formt == 'csv' or formt == 'json' or formt == 'css' or formt == 'sh': 
          shutil.move(file1,f'{path}/code/{f}')
 
     else:
